@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="title">Simon Game</h1>
+  <div class="buttons">
+  <button id="play" class="main-buttons"> Play!</button>
+  
+  <button data-modal-target="#modal" class="main-buttons">How to Play</button>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="howto">How to Play Simon</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      The objective of the game is to remember the pattern as far as you can. In the start, a color will flash. Press that color to repeat the sequence. The unit will add another color to the sequence which you then repeat by pressing in the correct order. The unit will continue to add colors after you successfully repeat the sequence back.  When you don’t complete a sequence successfully, the unit will play the fail sound and display your score by flashing certain lights. <br> Have fun!
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+  </div>
+  <h1 id="level-title"></h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green"></div>
+      <div type="button" id="red" class="btn red"></div>
+    
+    </div>
+    
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow"></div>
+      <div type="button" id="blue" class="btn blue"></div>
+
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+  
+</body>
+
+</html>

@@ -1,9 +1,9 @@
 # Simon Game
 
-Click the link below to play!
+Click the link to play!
 https://simon-game-8gva.onrender.com
 
-![Simon Game Screenshot](screenshot.png)
+![Simon Game Screenshot](images/simongame.png)
 
 **Simon Game** is a classic memory game where the player must remember and repeat a sequence of colors and sounds. It's a fun and challenging way to test your memory and concentration skills. This web-based version of the game is built using HTML, CSS, and JavaScript.
 
